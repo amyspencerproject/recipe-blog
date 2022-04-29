@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "eleventy-plugin-cooklang": "^0.0.5"
+  }
+}
