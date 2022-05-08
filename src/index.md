@@ -1,6 +1,6 @@
 ---
-layout:base.njk 
+layout:layouts/home.njk 
 pageTitle:Recipes
 ---
 
-This is pretty _rad_, right?
+Talk to me goose!
