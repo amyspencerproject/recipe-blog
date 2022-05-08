@@ -1,5 +1,4 @@
 ---
-layout:layout.njk
 pageTitle:This is my title
 ---
 

@@ -4,5 +4,23 @@
   },
   "devDependencies": {
     "typescript": "^4.6.4"
-  }
+  },
+  "name": "recipe-blog",
+  "version": "1.0.0",
+  "main": ".eleventy.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amyspencerproject/recipe-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amyspencerproject/recipe-blog/issues"
+  },
+  "homepage": "https://github.com/amyspencerproject/recipe-blog#readme",
+  "description": ""
 }
