@@ -2,9 +2,9 @@
 module.exports = function(eleventyConfig) {
     
     // Output directory: _site, copy folders 'images' 'css' 'js'
-    eleventyConfig.addPassthroughCopy('images');
-    eleventyConfig.addPassthroughCopy('css');
-    eleventyConfig.addPassthroughCopy('js');
+    eleventyConfig.addPassthroughCopy('./src/images');
+    eleventyConfig.addPassthroughCopy('./src/css');
+    eleventyConfig.addPassthroughCopy('./src/js');
 
     //Custom collection for recipes
     eleventyConfig.addCollection('recipes', function (collectionApi) {
