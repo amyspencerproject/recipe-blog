@@ -1,3 +1,4 @@
+const eleventyPluginCookLang = require('eleventy-plugin-cooklang');
 
 module.exports = function(eleventyConfig) {
     
@@ -15,6 +16,9 @@ module.exports = function(eleventyConfig) {
             return recipeA.date - recipeB.date;
           });
       });
+
+    // Plugins
+    eleventyConfig.addPlugin(eleventyPluginCookLang, { limitIngredientDecimals: 2 });
 
     return {
         markdownTemplateEngine: 'njk',
