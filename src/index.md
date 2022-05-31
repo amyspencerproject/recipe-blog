@@ -10,6 +10,7 @@ title:Amy's Corner
           <h1 class="intro_header">Creating my own little corner <em>in the world</em></h1>
       </div>
       <div class="intro_summary">
+        <p>Is this changing???</p>
           <p>This is my space for faffing about and enjoying coding, writing, and cooking</p>
       </div>
       <img 
